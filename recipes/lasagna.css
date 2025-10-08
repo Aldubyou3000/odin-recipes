@@ -1,0 +1,55 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+}
+
+.title {
+  font-weight: bold;
+  display: block;
+  background-color: rgb(95, 53, 25);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.recipe img {
+  display: block;
+  margin: 50px auto;
+}
+
+.tutorial {
+  background-color: rgb(208, 255, 147);
+  padding: 60px;
+  width: 600px;
+  height: auto;
+  margin: 0px auto 100px;
+  border-radius: 15px;
+}
+.tutorial span {
+  font-weight: bold;
+}
+.tutorial ul li {
+  margin: 20px;
+}
+.tutorial ol li {
+  margin: 10px;
+}
+
+.home-btn {
+  background-color: rgb(95, 53, 25);
+  color: white;
+  text-align: center;
+  display: block;
+  width: fit-content; /* makes it shrink to content */
+  padding: 20px;
+  margin: 0px auto; /* centers horizontally */
+  border-radius: 5px;
+  text-decoration: none;
+}
